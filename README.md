@@ -2,7 +2,7 @@
 
 ## Anggota Kelompok
 1. Ahmad Alaloul
-2. M IMAM A SANGAJI
+2. 
 
 ## Deskripsi
 Projek ini merupakan Final Project mata kuliah
@@ -15,3 +15,4 @@ object, method, dan modular programming.
 ## Cara Menjalankan
 ```bash
 python main.py
+
