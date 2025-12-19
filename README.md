@@ -2,7 +2,10 @@
 
 ## Anggota Kelompok
 1. Ahmad Alaloul
-2. 
+2. Muhammad Fikri Palembang
+3. Gerald Adinarto
+4. Afif Ibnu Pratama
+5. Sahdila Irwan
 
 ## Deskripsi
 Projek ini merupakan Final Project mata kuliah
