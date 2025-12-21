@@ -1,7 +1,7 @@
 # Final Project PBO – Sistem Informasi Akademik
 ---
 ## Anggota Kelompok
-1. Muhammad Fikri Palembang (Maintenance)
+1. Muhammad Fikri Palembang (Maintainer)
 2. Ahmad Alaloul (Kontributor)
 3. Gerald Adinarto (Kontributor)
 4. Afif Ibnu Pratama (Kontributor)
