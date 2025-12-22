@@ -1,7 +1,6 @@
 from matakuliah import MataKuliah
 from nilai import Nilai
 
-
 class Mahasiswa:
     def __init__(self, nim, nama):
         self.nim = nim
@@ -10,6 +9,7 @@ class Mahasiswa:
     def tampil(self):
         return f"NIM: {self.nim} | Nama: {self.nama}"
 
+# data
 daftar_mahasiswa = []
 daftar_matakuliah = []
 daftar_nilai = []
@@ -40,7 +40,7 @@ while True:
 
     elif pilihan == "3":
         if not daftar_mahasiswa or not daftar_matakuliah:
-            print("⚠️ Data mahasiswa atau mata kuliah belum tersedia")
+            print("⚠️ Data mahasiswa atau mata kuliah belum tersedia, silahkan input terlebih dahulu")
             continue
 
         print("\nDaftar Mahasiswa:")
@@ -54,10 +54,15 @@ while True:
             print(f"{i}. {mk.tampil()}")
 
         idx_mk = int(input("Pilih nomor mata kuliah: "))
-        nilai = input("Masukkan Nilai: ")
+        presence = int(input("Masukkan Niai Kehadiran (0-100): "))
+        n_tugas = int(input("Masukkan Nilai Tugas (0-100): "))
+        n_uts = int(input("Masukkan Nilai UTS (0-100): "))
+        n_uas = int(input("Masukkan Nilai UAS (0-100): "))
+        print("Jumlah Nilai: ", (presence + n_tugas + n_uts + n_uas)/4)
+        nilai_total = int((presence + n_tugas + n_uts + n_uas)/4)
 
         daftar_nilai.append(
-            Nilai(daftar_mahasiswa[idx_mhs], daftar_matakuliah[idx_mk], nilai)
+            Nilai(daftar_mahasiswa[idx_mhs], daftar_matakuliah[idx_mk], nilai_total)
         )
 
         print("✅ Nilai berhasil disimpan")
@@ -75,4 +80,4 @@ while True:
         break
 
     else:
-        print("❌ Pilihan tidak valid")
+        print("❌ Pilihan tidak valid, pilih ulang")
