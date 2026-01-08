@@ -12,6 +12,8 @@ Projek ini merupakan Final Project mata kuliah. Pemrograman Berorientasi Objek (
 
 Aplikasi ini bertujuan untuk mengelola data mahasiswa dan nilai, meliputi:
 
+- Menambahkan data matakuliah.
+
 - Menambahkan data mahasiswa
 
 - Menampilkan data mahasiswa
